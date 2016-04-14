@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+</head>
+<body>
+	<h1>Sign Up</h1>
+
+	<form>
+		<label for="first">FIRST NAME:</label>
+		<input name="first" id="first" type="text" placeholder="firstname" required>
+		<label for="last">LAST NAME:</label>
+		<input name="last" id="last" type="text" placeholder="lastname" required>
+
+	<div>
+		<lable>EMAIL:
+			<input name="email" type="email" placeholder="your email" required>
+		</lable>
+		<lable>Password:
+			<input name="password" type="password" pattern=".{6,12}" required title="6 to 12 characters">
+		</lable>
+	</div>
+
+	<div>
+		<label for="agreed">I agree to the terms and conditions:</label>
+		<input id="agreed" name="agreed" type="checkbox">
+	</div>
+	
+	</form>
+
+</body>
+</html>
